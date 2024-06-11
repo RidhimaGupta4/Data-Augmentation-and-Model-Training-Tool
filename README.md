@@ -96,7 +96,7 @@ backend/
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/eklavyaj/Data-Augmentation-and-Model-Training-Tool`
+- Clone this repo to your local machine using `https://github.com/ridhimagu/Data-Augmentation-and-Model-Training-Tool`
 
 ### Steps to run backend
 
