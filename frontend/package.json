@@ -1,0 +1,74 @@
+{
+  "name": "frontend",
+  "version": "1.2.0",
+  "private": true,
+  "homepage": "https://demos.creative-tim.com/frontend/#/dashboard",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/data-grid": "^4.0.0-alpha.23",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "axios": "^0.21.1",
+    "bootstrap": "4.5.0",
+    "chart.js": "2.9.3",
+    "extract-zip": "^2.0.1",
+    "firebase": "^8.3.1",
+    "history": "4.10.1",
+    "node-sass": "4.14.1",
+    "perfect-scrollbar": "1.5.0",
+    "plotly.js": "^1.58.4",
+    "react": "16.13.1",
+    "react-alert": "^7.0.2",
+    "react-awesome-lightbox": "^1.8.0",
+    "react-bootstrap": "^1.5.2",
+    "react-chartjs-2": "2.9.0",
+    "react-countdown": "^2.3.1",
+    "react-data-grid": "^7.0.0-canary.38",
+    "react-dom": "16.13.1",
+    "react-google-maps": "9.4.5",
+    "react-graph3d-vis": "^1.0.1",
+    "react-grid-gallery": "^0.5.5",
+    "react-images": "^1.2.0-beta.6",
+    "react-lightbox-component": "^1.2.1",
+    "react-notification-alert": "0.0.12",
+    "react-plotly.js": "^2.5.1",
+    "react-plotlyjs": "^0.4.4",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.1",
+    "react-toastify": "^7.0.3",
+    "reactstrap": "8.4.1",
+    "unzipper": "^0.10.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && gulp licenses",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css",
+    "minify-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/paper-dashboard.scss src/assets/css/paper-dashboard.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "optionalDependencies": {
+    "@types/googlemaps": "3.39.6",
+    "@types/markerclustererplus": "2.1.33",
+    "@types/react": "16.9.35",
+    "ajv": "6.12.2",
+    "jquery": "3.5.1",
+    "typescript": "3.9.5"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.8"
+  }
+}
