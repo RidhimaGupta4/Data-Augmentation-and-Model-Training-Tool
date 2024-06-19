@@ -6,10 +6,6 @@
   German Traffic Sign
 </h1>
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/MLH-Fellowship/Auto-Tagger.svg)](https://github.com/anjalisoni3655/Bosch/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/MLH-Fellowship/Auto-Tagger.svg)](https://github.com/anjalisoni3655/Bosch/pulls)
-
 <h4 align="left">An Artificial Intelligence tool that predicts Traffic signs based on various pre-trained models and allows user to manipulate datasets.  <br><br>
 This repo contains:</h4>
 
